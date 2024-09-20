@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    z-index: 9;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 35px;
+    color:  white;
+    z-index: 9;
+}
+.logo-left{
+    font-family: "Unbounded", sans-serif;
+    font-size: 54px;
+    z-index: 9;
+}
+.logo-right{
+    display: flex;
+    flex-direction: column;
+    font-family: "Unbounded", sans-serif;
+    font-size: 20px;
+    z-index: 9;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9;
+}
+.header-navigation{
+    border-right: 2px solid rgb(255, 255, 255);
+    padding: 15px 55px ;
+    z-index: 9;
+}
+.header-navigation_button{
+    margin-left: 55px;
+    font-family: "Unbounded", sans-serif;
+    transition: 0.5s;
+    z-index: 9;
+    color: white;
+}
+.header-navigation_button:hover{
+    transform: translate(0,-3px);
+}
+.header-contact{
+    z-index: 9;
+    margin: 15px 55px;
+}
+.header-contact_button{
+    font-family: "Unbounded", sans-serif;
+    padding: 10px 35px;
+    background-color: rgba(46, 43, 208, 1) ;
+    color: white;
+    border-radius: 7px;
+    transition: 0.5s;
+    z-index: 9;
+}
+
+.header-contact_button:hover{
+    transform: translate(0,-3px);
+    box-shadow: 0 5px 15px 0 rgba(46, 43, 208, 1);
+}

@@ -1,0 +1,44 @@
+.poster{
+    margin: 150px 100px;
+}
+.poster-text{
+    font-family: "Unbounded", sans-serif;
+    font-size: 36px;
+    width: 800px;
+    margin-bottom: 100px;
+    display: inline-block;
+    position: relative;
+    z-index: 9;
+    color: white;
+}
+.poster-text::before {
+    content: '';
+    position: absolute;
+    bottom: 20%; left: 0;
+    width: 100%; height: 55%;
+    background-color: rgba(46, 43, 208, 1) ;
+    z-index: -1;
+}
+.poster-label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    z-index: 9;
+    cursor: pointer;
+    text-shadow: 0 0 15px #ffffff;
+    color: transparent;
+    transition: all .5s;
+
+}
+.poster-label:hover {
+    text-shadow: 0 0 0 #ffffff;
+    box-shadow: 0 0 15px #ffffff;
+}
+.poster-label_text{
+    font-size: 28px;
+    z-index: 9;
+}
